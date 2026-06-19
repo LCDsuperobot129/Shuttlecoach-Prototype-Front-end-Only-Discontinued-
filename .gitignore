@@ -1,0 +1,43 @@
+# Backend
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.vscode/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# Frontend
+frontend/.dart_tool/
+frontend/build/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/Flutter.framework/
+frontend/ios/Flutter/Flutter.podspec
+frontend/windows/flutter/generated_plugins.cmake
+frontend/windows/flutter/generated_plugin_registrant.cmake
+frontend/.packages
+frontend/pubspec.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+/tmp/
+/temp/
