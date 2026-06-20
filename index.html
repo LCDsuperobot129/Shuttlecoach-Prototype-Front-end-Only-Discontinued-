@@ -1036,6 +1036,9 @@
         : `Sets: ${state.setWins[0]} - ${state.setWins[1]}`;
       $('#winnerOverlay').classList.add('active');
       launchConfetti();
+      const winSound = new Audio('Win.wav');
+      winSound.volume = 0.5;
+      winSound.play();
     }
 
     function startNewMatch() {
