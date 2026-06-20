@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>UmpireBuddy</title>
   <link rel="icon" type="image/x-icon" href="/UmpireBuddyLogo3.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -26,7 +29,7 @@
       --success: #FFFFFF;
       --radius: 16px;
       --radius-sm: 10px;
-      --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      --font: Manrope, sans-serif;
     }
 
     html, body {
@@ -393,6 +396,8 @@
       cursor: pointer;
       transition: all 0.2s ease;
       letter-spacing: 0.5px;
+
+      font-family: Manrope, sans-serif;
     }
 
     .action-btn:hover { background: var(--surface-hover); border-color: var(--border-light); color: var(--text); }
