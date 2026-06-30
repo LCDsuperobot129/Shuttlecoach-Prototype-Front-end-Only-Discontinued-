@@ -2,7 +2,7 @@
 
 An interactive badminton court heatmap to help you improve your shots and study your opponents' shots
 
-Use it here: https://lcdsuperobot129.github.io/UmpireBuddy/
+Use it here: [https://lcdsuperobot129.github.io/UmpireBuddy/](https://lcdsuperobot129.github.io/Shotmap/)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
